@@ -277,10 +277,10 @@
 
     show_11022816().then(function(){
       clearTimeout(timeout);
-      var n = getPts() + 10;
+      var n = getPts() + 1;
       savePts(n);
       document.getElementById('pointsNum').textContent = n;
-      toast('✅ +10 Points Earned!', 'ok');
+      toast('✅ +1 Points Earned!', 'ok');
     }).catch(function(){
       clearTimeout(timeout);
       toast('❌ Ad Failed or Closed', 'err');
